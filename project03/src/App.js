@@ -6,6 +6,7 @@ import Ex03 from './Example/Ex03';
 import Ex04 from './Example/Ex04';
 import Ex05 from './Example/Ex05';
 import Ex06 from './Example/Ex06';
+import Ex07 from './Example/Ex07';
 
 
 function App() {
@@ -29,7 +30,10 @@ function App() {
     {/* <Ex05/> */}
 
     {/* ex06 : 미니실습! - 댓글달기 */}
-    <Ex06/>
+    {/* <Ex06/> */}
+
+    {/* ex07 : 클래스 컴포넌트 */}
+    <Ex07/>
     </div>
   );
 }
