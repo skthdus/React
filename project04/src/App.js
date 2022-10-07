@@ -3,6 +3,8 @@ import {Routes, Route} from 'react-router-dom'
 
 import Main from './components/Main';
 import About from './components/About';
+import Mypage from './components/Mypage';
+import Product from './components/Product';
 
 function App() {
   return (
@@ -18,6 +20,13 @@ function App() {
             path(경로), element(컴포넌트) */}
         <Route path='/' element={<Main/>}></Route>
         <Route path='/about' element={<About/>}></Route>
+
+        {/* 로그인 상태에 따라 다르게 처리 */}
+        <Route path='/mypage' element={<Mypage/>}></Route>
+
+        {/* url 파라미터를 이용 useParams() */}
+        <Route path='/product:num' element={<Product/>}></Route>
+
       </Routes>
     </div>
   );
