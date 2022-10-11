@@ -6,9 +6,11 @@ import Ex03 from './Example/Ex03';
 import Ex04 from './Example/Ex04';
 import Ex05 from './Example/Ex05';
 import Ex06 from './Example/Ex06';
+import Ex06B from './Example/Ex06B'
 import Ex07 from './Example/Ex07';
 import Ex08 from './Example/Ex08';
 import Ex09 from './Example/Ex09';
+import Ex10 from './Example/Ex10';
 
 
 function App() {
@@ -32,7 +34,10 @@ function App() {
     {/* <Ex05/> */}
 
     {/* ex06 : 미니실습! - 댓글달기 */}
-    {/* <Ex06/> */}
+    {/* <Ex06/>  */}
+
+    {/* ex06-2 input 값 추출하기 */}
+    {/* <Ex06B/> */}
 
     {/* ex07 : 클래스 컴포넌트 */}
     {/* <Ex07/>*/}
@@ -41,7 +46,10 @@ function App() {
     {/* <Ex08/> */}
 
     {/* ex09 : 영화 데이터 리액트로 바꾸기! */}
-    <Ex09/>
+    {/* <Ex09/> */}
+
+    {/* ex10 : 날씨 open API */}
+    <Ex10/>
     </div>
   );
 }

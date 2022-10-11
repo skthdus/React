@@ -16,6 +16,8 @@ const Header = () => {
         <h2>Campus K Market</h2>
       </Link>
    
+      <Link to='./join'>회원가입</Link>
+      
     </div>
   )
 }

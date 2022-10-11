@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 import Header from './components/Header';
 import Products from './components/Products';
 import Detail from './components/Detail';
+import Join from './components/Join';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Products/>}/>
         <Route path='/detail:num' element={<Detail/>}></Route>
+        <Route path='/join' element={<Join/>}/>
       </Routes>
       
     </div>
